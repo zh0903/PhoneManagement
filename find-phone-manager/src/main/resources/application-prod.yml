@@ -1,0 +1,12 @@
+#配置生产环境的数据源
+spring:
+  datasource:
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/find_phone_eam?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    type: com.alibaba.druid.pool.DruidDataSource
+    platform: mysql
+#logging:
+#  level:
+#    com.xiaomi.manager: debug

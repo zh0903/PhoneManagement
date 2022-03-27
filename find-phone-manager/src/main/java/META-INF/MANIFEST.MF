@@ -1,0 +1,46 @@
+Manifest-Version: 1.0
+Main-Class: com.xiaomi.manager.FindPhoneManagerMainApplication
+Class-Path: hibernate-validator-6.0.17.Final.jar jackson-databind-2.9.9.
+ 3.jar spring-expression-5.1.9.RELEASE.jar gson-2.8.5.jar jaxb-api-2.3.1
+ .jar mybatis-plus-annotation-3.4.2.jar validation-api-2.0.1.Final.jar j
+ jwt-0.7.0.jar springfox-swagger2-2.9.2.jar jackson-datatype-jdk8-2.9.9.
+ jar mysql-connector-java-8.0.17.jar tomcat-embed-core-9.0.24.jar druid-
+ 1.1.16.jar jul-to-slf4j-1.7.28.jar commons-lang-2.6.jar commons-codec-1
+ .11.jar spring-beans-5.1.9.RELEASE.jar okhttp-2.5.0.jar springfox-core-
+ 2.9.2.jar swagger-annotations-1.5.20.jar jackson-annotations-2.9.0.jar 
+ log4j-api-2.11.2.jar tomcat-embed-websocket-9.0.24.jar springfox-swagge
+ r-common-2.9.2.jar jackson-core-2.9.9.jar tencentcloud-sdk-java-3.1.217
+ .jar spring-boot-autoconfigure-2.1.8.RELEASE.jar mybatis-spring-2.0.5.j
+ ar spring-boot-starter-json-2.1.8.RELEASE.jar netty-common-4.1.39.Final
+ .jar httpclient-4.5.9.jar joda-time-2.10.3.jar logback-classic-1.2.3.ja
+ r commons-logging-1.2.jar spring-boot-starter-logging-2.1.8.RELEASE.jar
+  logback-core-1.2.3.jar spring-jdbc-5.1.9.RELEASE.jar netty-resolver-4.
+ 1.39.Final.jar spring-webmvc-5.1.9.RELEASE.jar netty-buffer-4.1.39.Fina
+ l.jar bcprov-jdk15on-1.59.jar mybatis-plus-extension-3.4.2.jar jboss-lo
+ gging-3.3.3.Final.jar hutool-all-5.5.8.jar spring-data-redis-2.1.10.REL
+ EASE.jar springfox-schema-2.9.2.jar spring-data-commons-2.1.10.RELEASE.
+ jar spring-boot-starter-aop-2.1.8.RELEASE.jar reactive-streams-1.0.3.ja
+ r fastjson-1.2.75.jar spring-aop-5.1.9.RELEASE.jar spring-context-5.1.9
+ .RELEASE.jar spring-boot-starter-jdbc-2.1.8.RELEASE.jar guava-20.0.jar 
+ HikariCP-3.2.0.jar httpcore-4.4.12.jar netty-handler-4.1.39.Final.jar s
+ wagger-models-1.5.20.jar netty-transport-4.1.39.Final.jar spring-tx-5.1
+ .9.RELEASE.jar mybatis-plus-boot-starter-3.4.2.jar springfox-spi-2.9.2.
+ jar okio-1.12.0.jar reactor-core-3.2.12.RELEASE.jar lombok-1.18.8.jar s
+ pringfox-swagger-ui-2.9.2.jar snakeyaml-1.23.jar logging-interceptor-2.
+ 7.5.jar mybatis-3.5.6.jar mybatis-plus-3.4.2.jar tomcat-embed-el-9.0.24
+ .jar log4j-to-slf4j-2.11.2.jar spring-plugin-core-1.2.0.RELEASE.jar spr
+ ing-plugin-metadata-1.2.0.RELEASE.jar spring-boot-devtools-2.1.8.RELEAS
+ E.jar spring-core-5.1.9.RELEASE.jar aspectjweaver-1.9.4.jar jackson-mod
+ ule-parameter-names-2.9.9.jar springfox-spring-web-2.9.2.jar spring-boo
+ t-starter-tomcat-2.1.8.RELEASE.jar spring-data-keyvalue-2.1.10.RELEASE.
+ jar spring-boot-configuration-processor-2.1.8.RELEASE.jar javax.activat
+ ion-api-1.2.0.jar cos_api-5.6.15.jar slf4j-api-1.7.28.jar spring-contex
+ t-support-5.1.9.RELEASE.jar lettuce-core-5.1.8.RELEASE.jar jackson-data
+ type-jsr310-2.9.9.jar classmate-1.4.0.jar spring-boot-starter-data-redi
+ s-2.1.8.RELEASE.jar spring-boot-starter-2.1.8.RELEASE.jar spring-oxm-5.
+ 1.9.RELEASE.jar spring-jcl-5.1.9.RELEASE.jar mapstruct-1.2.0.Final.jar 
+ spring-boot-starter-web-2.1.8.RELEASE.jar mybatis-plus-core-3.4.2.jar s
+ pring-web-5.1.9.RELEASE.jar spring-boot-2.1.8.RELEASE.jar byte-buddy-1.
+ 9.16.jar jsqlparser-4.0.jar netty-codec-4.1.39.Final.jar javax.annotati
+ on-api-1.3.2.jar
+

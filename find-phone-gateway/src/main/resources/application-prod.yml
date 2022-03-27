@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+    platform: mysql
+    url: jdbc:mysql://localhost:3306/find_phone_eam?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
