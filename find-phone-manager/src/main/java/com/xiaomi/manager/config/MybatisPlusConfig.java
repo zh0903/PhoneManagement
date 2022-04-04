@@ -1,4 +1,4 @@
-package com.xiaomi.manager.config;
+package com.xm.manager.config;
 
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;
@@ -9,13 +9,13 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
- * @author LYJ
+
  * @Description
  * @date 2021 年 02 月 20 日 15:25
  */
 @EnableTransactionManagement
 @Configuration
-@MapperScan("com.xiaomi.manager.dao")
+@MapperScan("com.xm.manager.dao")
 public class MybatisPlusConfig {
 
 

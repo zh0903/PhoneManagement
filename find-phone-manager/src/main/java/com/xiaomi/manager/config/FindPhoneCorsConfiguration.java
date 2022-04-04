@@ -1,11 +1,11 @@
-package com.xiaomi.manager.config;
+package com.xm.manager.config;
 
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.reactive.CorsWebFilter;
 import org.springframework.web.cors.reactive.UrlBasedCorsConfigurationSource;
 
 /**
- * @author LYJ
+
  * @Description  已经在网关添加
  * @date 2021 年 10 月 26 日 下午3:41
  */

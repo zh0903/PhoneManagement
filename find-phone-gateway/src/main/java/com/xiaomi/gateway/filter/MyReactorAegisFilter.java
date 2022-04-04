@@ -1,15 +1,15 @@
-package com.xiaomi.gateway.filter;
+package com.xm.gateway.filter;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
-import com.xiaomi.aegis.utils.AegisSignUtil;
-import com.xiaomi.common.constant.GateWayAndManagerConstant;
-import com.xiaomi.gateway.vo.UserInfoVO;
-import com.xiaomi.common.entity.UserEntity;
-import com.xiaomi.common.utils.R;
-import com.xiaomi.gateway.exception.BizCodeEnum;
-import com.xiaomi.gateway.service.UserService;
+import com.xm.aegis.utils.AegisSignUtil;
+import com.xm.common.constant.GateWayAndManagerConstant;
+import com.xm.gateway.vo.UserInfoVO;
+import com.xm.common.entity.UserEntity;
+import com.xm.common.utils.R;
+import com.xm.gateway.exception.BizCodeEnum;
+import com.xm.gateway.service.UserService;
 import io.netty.util.CharsetUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -28,14 +28,14 @@ import reactor.core.publisher.Mono;
 import java.util.List;
 
 /**
- * @author LYJ
+
  * @Description 由于小米本身提供的AegisFilter SDK 无法满足需求，固参考原本的SDK重写Filter过滤方法
  * @date 2021 年 11 月 03 日 上午11:03
  */
 public class MyReactorAegisFilter implements GlobalFilter, Ordered {
 
     private UserService userService;
-    private static final Logger log = LoggerFactory.getLogger(com.xiaomi.aegis.filter.AegisFilter.class);
+    private static final Logger log = LoggerFactory.getLogger(com.xm.aegis.filter.AegisFilter.class);
     private static final String MI_PUBLIC_KEY = "DELETE"
 
     public MyReactorAegisFilter(UserService userService) {

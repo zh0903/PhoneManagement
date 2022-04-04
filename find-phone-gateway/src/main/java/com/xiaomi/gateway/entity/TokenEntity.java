@@ -1,4 +1,4 @@
-package com.xiaomi.gateway.entity;
+package com.xm.gateway.entity;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
@@ -13,8 +13,8 @@ import lombok.Data;
 /**
  * 
  * 
- * @author lyj
- * @email 1499755237@qq.com
+
+ *
  * @date 2021-10-28 15:49:45
  */
 @AllArgsConstructor

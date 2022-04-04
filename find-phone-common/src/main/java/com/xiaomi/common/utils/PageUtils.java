@@ -6,7 +6,7 @@
  * 版权所有，侵权必究！
  */
 
-package com.xiaomi.common.utils;
+package com.xm.common.utils;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 
@@ -16,7 +16,7 @@ import java.util.List;
 /**
  * 分页工具类
  *
- * @author lyj
+
  */
 public class PageUtils implements Serializable {
 	private static final long serialVersionUID = 1L;

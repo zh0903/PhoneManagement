@@ -1,4 +1,4 @@
-package com.xiaomi.manager.controller;
+package com.xm.manager.controller;
 
 import java.util.Arrays;
 import java.util.Map;
@@ -8,15 +8,15 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import com.xiaomi.manager.entity.LogEntity;
-import com.xiaomi.manager.service.LogService;
-import com.xiaomi.common.utils.PageUtils;
-import com.xiaomi.common.utils.R;
+import com.xm.manager.entity.LogEntity;
+import com.xm.manager.service.LogService;
+import com.xm.common.utils.PageUtils;
+import com.xm.common.utils.R;
 
 
 /**
- * @author lyj
- * @email 1499755237@qq.com
+
+ *
  * @date 2021-10-27 10:56:17
  */
 @Api(tags = "日志模块")

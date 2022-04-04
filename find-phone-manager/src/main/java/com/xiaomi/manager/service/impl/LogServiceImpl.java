@@ -1,18 +1,18 @@
-package com.xiaomi.manager.service.impl;
+package com.xm.manager.service.impl;
 
 import cn.hutool.core.util.StrUtil;
-import com.xiaomi.common.utils.Constant;
+import com.xm.common.utils.Constant;
 import org.springframework.stereotype.Service;
 import java.util.Map;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.xiaomi.common.utils.PageUtils;
-import com.xiaomi.common.utils.Query;
+import com.xm.common.utils.PageUtils;
+import com.xm.common.utils.Query;
 
-import com.xiaomi.manager.dao.LogDao;
-import com.xiaomi.manager.entity.LogEntity;
-import com.xiaomi.manager.service.LogService;
+import com.xm.manager.dao.LogDao;
+import com.xm.manager.entity.LogEntity;
+import com.xm.manager.service.LogService;
 
 
 @Service("logService")

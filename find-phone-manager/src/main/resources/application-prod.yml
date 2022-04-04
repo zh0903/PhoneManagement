@@ -9,4 +9,4 @@ spring:
     platform: mysql
 #logging:
 #  level:
-#    com.xiaomi.manager: debug
+#    com.xm.manager: debug

@@ -1,4 +1,4 @@
-package com.xiaomi.common.xss;
+package com.xm.common.xss;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;

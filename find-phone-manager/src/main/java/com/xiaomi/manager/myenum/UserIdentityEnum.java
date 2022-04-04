@@ -1,9 +1,9 @@
-package com.xiaomi.manager.myenum;
+package com.xm.manager.myenum;
 
 import lombok.Data;
 
 /**
- * @author LYJ
+
  * @Description 用户身份映射
  * @date 2021 年 11 月 09 日 下午5:21
  */

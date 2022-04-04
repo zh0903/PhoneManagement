@@ -1,11 +1,11 @@
-package com.xiaomi.gateway.exception;
+package com.xm.gateway.exception;
 
 import lombok.Data;
 
 import java.io.Serializable;
 
 /**
- * @author LYJ
+
  * @Description token校验异常
  * @date 2021 年 05 月 10 日 8:53
  */

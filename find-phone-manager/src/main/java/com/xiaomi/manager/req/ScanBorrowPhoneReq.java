@@ -1,6 +1,6 @@
-package com.xiaomi.manager.req;
+package com.xm.manager.req;
 
-import com.xiaomi.manager.validator.annotation.ISNumberValue;
+import com.xm.manager.validator.annotation.ISNumberValue;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -10,7 +10,7 @@ import javax.validation.constraints.Pattern;
 import java.io.Serializable;
 
 /**
- * @author LYJ
+
  * @Description
  * @date 2021 年 10 月 28 日 上午9:59
  */

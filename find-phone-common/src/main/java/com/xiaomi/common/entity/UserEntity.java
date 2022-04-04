@@ -1,4 +1,4 @@
-package com.xiaomi.common.entity;
+package com.xm.common.entity;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
@@ -7,10 +7,8 @@ import lombok.Data;
 import java.io.Serializable;
 
 /**
- * 
  * 公共entity 因为common模块和gateWay模块都需要使用到
- * @author lyj
- * @email 1499755237@qq.com
+ *
  * @date 2021-10-27 10:56:17
  */
 @Data

@@ -21,7 +21,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.xiaomi</groupId>
+            <groupId>com.xm</groupId>
             <artifactId>find-phone-common</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
@@ -104,7 +104,7 @@
                 <version>2.3.1.RELEASE</version>
                 <configuration>
                     <mainClass>
-                        com.xiaomi.manager.FindPhoneManagerMainApplication:w
+                        com.xm.manager.FindPhoneManagerMainApplication:w
                     </mainClass>
                 </configuration>
                 <executions>

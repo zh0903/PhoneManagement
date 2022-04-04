@@ -1,4 +1,4 @@
-package com.xiaomi.common.utils;
+package com.xm.common.utils;
 
 
 import io.jsonwebtoken.CompressionCodecs;
@@ -8,7 +8,7 @@ import io.jsonwebtoken.SignatureAlgorithm;
 import java.util.Date;
 
 /**
- * @author LYJ
+
  * @Description 用于创建token的工具类
  * @date 2021 年 02 月 24 日 10:36
  */

@@ -1,13 +1,13 @@
-package com.xiaomi.gateway.exception;
+package com.xm.gateway.exception;
 
-import com.xiaomi.common.utils.R;
+import com.xm.common.utils.R;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 /**
- * @author LYJ
+
  * @Description 统一异常处理器
  * @date 2021 年 05 月 10 日 8:51
  */

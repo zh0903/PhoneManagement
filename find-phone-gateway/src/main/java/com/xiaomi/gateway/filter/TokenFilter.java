@@ -1,14 +1,14 @@
-//package com.xiaomi.gateway.filter;
+//package com.xm.gateway.filter;
 //
 //import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-//import com.xiaomi.aegis.utils.AegisFacade;
-//import com.xiaomi.aegis.vo.UserInfoVO;
-//import com.xiaomi.common.utils.R;
-//import com.xiaomi.common.utils.TokenManager;
-//import com.xiaomi.gateway.entity.TokenEntity;
-//import com.xiaomi.gateway.exception.BizCodeEnum;
-//import com.xiaomi.gateway.exception.InvalidateTokenException;
-//import com.xiaomi.gateway.service.TokenService;
+//import com.xm.aegis.utils.AegisFacade;
+//import com.xm.aegis.vo.UserInfoVO;
+//import com.xm.common.utils.R;
+//import com.xm.common.utils.TokenManager;
+//import com.xm.gateway.entity.TokenEntity;
+//import com.xm.gateway.exception.BizCodeEnum;
+//import com.xm.gateway.exception.InvalidateTokenException;
+//import com.xm.gateway.service.TokenService;
 //import org.slf4j.Logger;
 //import org.slf4j.LoggerFactory;
 //import org.springframework.beans.factory.annotation.Autowired;
@@ -31,7 +31,7 @@
 //import java.util.List;
 //
 ///**
-// * @author LYJ
+//
 // * @Description  暂时不使用
 // * @date 2021 年 10 月 28 日 下午4:34
 // */

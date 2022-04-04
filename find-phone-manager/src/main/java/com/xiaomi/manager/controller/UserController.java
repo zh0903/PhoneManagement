@@ -1,30 +1,24 @@
-package com.xiaomi.manager.controller;
+package com.xm.manager.controller;
 
 import java.util.Arrays;
 import java.util.Map;
 
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
-import com.xiaomi.common.entity.UserEntity;
-import com.xiaomi.manager.aop.annotation.CheckAuthority;
-import com.xiaomi.manager.entity.PhoneEntity;
+import com.xm.common.entity.UserEntity;
+import com.xm.manager.aop.annotation.CheckAuthority;
+import com.xm.manager.entity.PhoneEntity;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import com.xiaomi.manager.service.UserService;
-import com.xiaomi.common.utils.PageUtils;
-import com.xiaomi.common.utils.R;
+import com.xm.manager.service.UserService;
+import com.xm.common.utils.PageUtils;
+import com.xm.common.utils.R;
 
 
 
-/**
- * 
- *
- * @author lyj
- * @email 1499755237@qq.com
- * @date 2021-10-27 10:56:17
- */
+
 @Api(tags = "用户模块")
 @RestController
 @RequestMapping("manager/user")

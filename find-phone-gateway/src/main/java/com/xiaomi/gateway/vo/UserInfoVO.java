@@ -1,9 +1,9 @@
-package com.xiaomi.gateway.vo;
+package com.xm.gateway.vo;
 
 import lombok.Data;
 
 /**
- * @author LYJ
+
  * @Description
  * @date 2021 年 11 月 03 日 下午3:07
  */

@@ -6,9 +6,9 @@
  * 版权所有，侵权必究！
  */
 
-package com.xiaomi.common.xss;
+package com.xm.common.xss;
 
-import com.xiaomi.common.exception.RRException;
+import com.xm.common.exception.RRException;
 import org.apache.commons.lang.StringUtils;
 
 /**

@@ -1,11 +1,11 @@
-package com.xiaomi.gateway;
+package com.xm.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 /**
- * @author LYJ
+
  * @Description
  * @date 2021 年 10 月 26 日 下午2:33
  */

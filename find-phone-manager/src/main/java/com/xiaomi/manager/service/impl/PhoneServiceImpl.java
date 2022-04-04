@@ -1,14 +1,14 @@
-package com.xiaomi.manager.service.impl;
+package com.xm.manager.service.impl;
 
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
-import com.xiaomi.common.entity.UserEntity;
-import com.xiaomi.manager.entity.LogEntity;
-import com.xiaomi.manager.exception.BizCodeEnum;
-import com.xiaomi.manager.exception.NotFindPhoneException;
-import com.xiaomi.manager.exception.NotFindUserException;
-import com.xiaomi.manager.req.ScanBorrowPhoneReq;
-import com.xiaomi.manager.service.LogService;
-import com.xiaomi.manager.service.UserService;
+import com.xm.common.entity.UserEntity;
+import com.xm.manager.entity.LogEntity;
+import com.xm.manager.exception.BizCodeEnum;
+import com.xm.manager.exception.NotFindPhoneException;
+import com.xm.manager.exception.NotFindUserException;
+import com.xm.manager.req.ScanBorrowPhoneReq;
+import com.xm.manager.service.LogService;
+import com.xm.manager.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,12 +18,12 @@ import java.util.Map;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.xiaomi.common.utils.PageUtils;
-import com.xiaomi.common.utils.Query;
+import com.xm.common.utils.PageUtils;
+import com.xm.common.utils.Query;
 
-import com.xiaomi.manager.dao.PhoneDao;
-import com.xiaomi.manager.entity.PhoneEntity;
-import com.xiaomi.manager.service.PhoneService;
+import com.xm.manager.dao.PhoneDao;
+import com.xm.manager.entity.PhoneEntity;
+import com.xm.manager.service.PhoneService;
 import org.springframework.util.ObjectUtils;
 
 

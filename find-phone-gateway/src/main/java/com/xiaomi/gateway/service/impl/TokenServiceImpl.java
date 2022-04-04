@@ -1,15 +1,15 @@
-package com.xiaomi.gateway.service.impl;
+package com.xm.gateway.service.impl;
 
-import com.xiaomi.gateway.dao.TokenDao;
-import com.xiaomi.gateway.entity.TokenEntity;
-import com.xiaomi.gateway.service.TokenService;
+import com.xm.gateway.dao.TokenDao;
+import com.xm.gateway.entity.TokenEntity;
+import com.xm.gateway.service.TokenService;
 import org.springframework.stereotype.Service;
 import java.util.Map;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.xiaomi.common.utils.PageUtils;
-import com.xiaomi.common.utils.Query;
+import com.xm.common.utils.PageUtils;
+import com.xm.common.utils.Query;
 
 
 

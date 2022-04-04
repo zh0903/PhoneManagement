@@ -1,4 +1,4 @@
-package com.xiaomi.manager.utils;
+package com.xm.manager.utils;
 
 import org.apache.commons.lang.StringUtils;
 import org.apache.http.HttpResponse;
@@ -31,7 +31,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author LYJ
+
  * @Description 发送请求工具类
  * @date 2021 年 02 月 24 日 10:36
  */

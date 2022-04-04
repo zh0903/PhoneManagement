@@ -6,12 +6,12 @@
  * 版权所有，侵权必究！
  */
 
-package com.xiaomi.common.utils;
+package com.xm.common.utils;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.metadata.OrderItem;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.xiaomi.common.xss.SQLFilter;
+import com.xm.common.xss.SQLFilter;
 import org.apache.commons.lang.StringUtils;
 
 import java.util.Map;
@@ -20,7 +20,7 @@ import java.util.Map;
 /**
  * 查询参数
  *
- * @author lyj
+
  */
 public class Query<T> {
 

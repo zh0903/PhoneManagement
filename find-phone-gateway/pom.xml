@@ -23,7 +23,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.xiaomi</groupId>
+            <groupId>com.xm</groupId>
             <artifactId>find-phone-common</artifactId>
             <version>1.0-SNAPSHOT</version>
             <exclusions>
@@ -52,7 +52,7 @@
             <version>1.1.16</version>
         </dependency>
         <dependency>
-            <groupId>com.xiaomi.infosec</groupId>
+            <groupId>com.xm.infosec</groupId>
             <artifactId>aegis-java-sdk</artifactId>
             <version>2.0.3-SNAPSHOT</version>
         </dependency>
@@ -63,12 +63,12 @@
         <repository>
             <id>central</id>
             <name>maven-release-virtual</name>
-            <url>https://pkgs.d.xiaomi.net/artifactory/maven-release-virtual</url>
+            <url>https://pkgs.d.xm.net/artifactory/maven-release-virtual</url>
         </repository>
         <snapshotRepository>
             <id>snapshots</id>
             <name>maven-snapshot-virtual</name>
-            <url>https://pkgs.d.xiaomi.net/artifactory/maven-snapshot-virtual</url>
+            <url>https://pkgs.d.xm.net/artifactory/maven-snapshot-virtual</url>
         </snapshotRepository>
     </distributionManagement>
 
@@ -93,7 +93,7 @@
                 <version>2.3.1.RELEASE</version>
                     <configuration>
                         <mainClass>
-                            com.xiaomi.gateway.FindPhoneGateWayApplicationMain
+                            com.xm.gateway.FindPhoneGateWayApplicationMain
                         </mainClass>
                     </configuration>
                 <executions>

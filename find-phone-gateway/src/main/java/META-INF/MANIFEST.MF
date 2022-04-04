@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Main-Class: com.xiaomi.gateway.FindPhoneGateWayApplicationMain
+Main-Class: com.xm.gateway.FindPhoneGateWayApplicationMain
 Class-Path: hibernate-validator-6.0.17.Final.jar jackson-databind-2.9.9.
  3.jar spring-expression-5.1.9.RELEASE.jar druid-1.1.16.jar aegis-java-s
  dk-2.0.3-20200909.120925-1.jar mybatis-plus-annotation-3.4.2.jar valida

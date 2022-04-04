@@ -1,13 +1,13 @@
-package com.xiaomi.manager.service.impl;
+package com.xm.manager.service.impl;
 
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
-import com.xiaomi.common.constant.GateWayAndManagerConstant;
-import com.xiaomi.common.entity.UserEntity;
-import com.xiaomi.common.utils.R;
-import com.xiaomi.manager.entity.PhoneEntity;
-import com.xiaomi.manager.exception.BizCodeEnum;
-import com.xiaomi.manager.myenum.UserIdentityEnum;
-import com.xiaomi.manager.service.PhoneService;
+import com.xm.common.constant.GateWayAndManagerConstant;
+import com.xm.common.entity.UserEntity;
+import com.xm.common.utils.R;
+import com.xm.manager.entity.PhoneEntity;
+import com.xm.manager.exception.BizCodeEnum;
+import com.xm.manager.myenum.UserIdentityEnum;
+import com.xm.manager.service.PhoneService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,11 +18,11 @@ import java.util.Objects;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.xiaomi.common.utils.PageUtils;
-import com.xiaomi.common.utils.Query;
+import com.xm.common.utils.PageUtils;
+import com.xm.common.utils.Query;
 
-import com.xiaomi.manager.dao.UserDao;
-import com.xiaomi.manager.service.UserService;
+import com.xm.manager.dao.UserDao;
+import com.xm.manager.service.UserService;
 import org.springframework.util.ObjectUtils;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;

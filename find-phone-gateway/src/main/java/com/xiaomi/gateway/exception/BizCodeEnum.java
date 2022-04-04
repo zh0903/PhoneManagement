@@ -1,7 +1,7 @@
-package com.xiaomi.gateway.exception;
+package com.xm.gateway.exception;
 
 /**
- * @author LYJ
+
  * @Description 枚举通用的异常
  * @date 2021 年 02 月 23 日 15:40
  */

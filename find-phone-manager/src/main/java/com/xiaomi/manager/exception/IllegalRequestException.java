@@ -1,11 +1,11 @@
-package com.xiaomi.manager.exception;
+package com.xm.manager.exception;
 
-import com.xiaomi.common.exception.RRException;
+import com.xm.common.exception.RRException;
 
 import java.io.Serializable;
 
 /**
- * @author LYJ
+
  * @Description
  * @date 2021 年 11 月 09 日 下午5:10
  */

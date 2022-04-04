@@ -1,12 +1,12 @@
-package com.xiaomi.manager.validator;
+package com.xm.manager.validator;
 
-import com.xiaomi.manager.validator.annotation.ISNumberValue;
+import com.xm.manager.validator.annotation.ISNumberValue;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 
 /**
- * @author LYJ
+
  * @Description
  * @date 2021 年 10 月 28 日 上午11:19
  */

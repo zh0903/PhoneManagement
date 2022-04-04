@@ -6,13 +6,9 @@
  * 版权所有，侵权必究！
  */
 
-package com.xiaomi.common.exception;
+package com.xm.common.exception;
 
-/**
- * 自定义异常
- *
- * @author lyj
- */
+
 public class RRException extends RuntimeException {
 	private static final long serialVersionUID = 1L;
 	

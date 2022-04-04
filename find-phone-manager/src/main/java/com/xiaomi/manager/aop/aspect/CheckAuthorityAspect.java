@@ -1,13 +1,13 @@
-package com.xiaomi.manager.aop.aspect;
+package com.xm.manager.aop.aspect;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.xiaomi.common.constant.GateWayAndManagerConstant;
-import com.xiaomi.common.entity.UserEntity;
-import com.xiaomi.common.utils.R;
-import com.xiaomi.manager.aop.annotation.CheckAuthority;
-import com.xiaomi.manager.exception.BizCodeEnum;
-import com.xiaomi.manager.myenum.UserIdentityEnum;
-import com.xiaomi.manager.service.UserService;
+import com.xm.common.constant.GateWayAndManagerConstant;
+import com.xm.common.entity.UserEntity;
+import com.xm.common.utils.R;
+import com.xm.manager.aop.annotation.CheckAuthority;
+import com.xm.manager.exception.BizCodeEnum;
+import com.xm.manager.myenum.UserIdentityEnum;
+import com.xm.manager.service.UserService;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.Signature;
@@ -27,11 +27,6 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 import javax.servlet.http.HttpServletRequest;
 import java.util.Objects;
 
-/**
- * @author LYJ
- * @Description 权限校验的切面类
- * @date 2021 年 11 月 09 日 下午4:35
- */
 @Aspect
 @Component
 public class CheckAuthorityAspect {
@@ -42,7 +37,7 @@ public class CheckAuthorityAspect {
     private UserService userService;
 
 
-    @Pointcut("@annotation(com.xiaomi.manager.aop.annotation.CheckAuthority)")
+    @Pointcut("@annotation(com.xm.manager.aop.annotation.CheckAuthority)")
     public void checkPointCut() {
 
     }

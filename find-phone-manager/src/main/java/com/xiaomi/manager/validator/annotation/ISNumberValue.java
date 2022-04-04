@@ -1,13 +1,13 @@
-package com.xiaomi.manager.validator.annotation;
+package com.xm.manager.validator.annotation;
 
-import com.xiaomi.manager.validator.PatternNumberValidator;
+import com.xm.manager.validator.PatternNumberValidator;
 
 import javax.validation.Constraint;
 import javax.validation.Payload;
 import java.lang.annotation.*;
 
 /**
- * @author LYJ
+
  * @Description
  * @date 2021 年 10 月 28 日 上午11:21
  */

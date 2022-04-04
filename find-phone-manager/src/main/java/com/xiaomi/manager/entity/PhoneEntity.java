@@ -1,4 +1,4 @@
-package com.xiaomi.manager.entity;
+package com.xm.manager.entity;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
@@ -7,13 +7,7 @@ import java.io.Serializable;
 import java.util.Date;
 import lombok.Data;
 
-/**
- * 
- * 
- * @author lyj
- * @email 1499755237@qq.com
- * @date 2021-10-27 10:56:17
- */
+
 @Data
 @TableName("eam_phone")
 public class PhoneEntity implements Serializable {

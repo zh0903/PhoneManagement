@@ -1,4 +1,4 @@
-package com.xiaomi.common.utils;
+package com.xm.common.utils;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.TypeReference;
@@ -9,8 +9,8 @@ import java.util.Map;
 /**
  * 返回数据
  *
- * @author lyj
- * @email 1499755237@qq.com
+
+ *
  * @date 2016年10月27日 下午9:59:27
  */
 public class R extends HashMap<String, Object> {

@@ -6,12 +6,12 @@
  * 版权所有，侵权必究！
  */
 
-package com.xiaomi.common.utils;
+package com.xm.common.utils;
 
 /**
  * 常量
  *
- * @author lyj
+
  */
 public class Constant {
 	/** 超级管理员ID */
