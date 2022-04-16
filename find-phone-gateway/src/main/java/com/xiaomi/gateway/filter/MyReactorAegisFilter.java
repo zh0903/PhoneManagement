@@ -29,9 +29,9 @@ import java.util.List;
 
 /**
 
- * @Description 由于小米本身提供的AegisFilter SDK 无法满足需求，固参考原本的SDK重写Filter过滤方法
+ * @Description 由于本身提供的Filter SDK 无法满足需求，固参考原本的SDK重写Filter过滤方法
  * @date 2021 年 11 月 03 日 上午11:03
- */
+ */+
 public class MyReactorAegisFilter implements GlobalFilter, Ordered {
 
     private UserService userService;
@@ -69,7 +69,7 @@ public class MyReactorAegisFilter implements GlobalFilter, Ordered {
             List<String> signAndUserSignDataList = headers.get("x-proxy-userdetail");
             String signAndUserSignData = "";
             if (ObjectUtils.isEmpty(signAndUserSignDataList)) {
-                log.info("确认为米盾请求，没有签名用户数据(bypass|静态资源)，url{}", url);
+                log.info("确认为*盾请求，没有签名用户数据(bypass|静态资源)，url{}", url);
                 return chain.filter(exchange);
             } else {
                 signAndUserSignData = headers.get("x-proxy-userdetail").get(0);

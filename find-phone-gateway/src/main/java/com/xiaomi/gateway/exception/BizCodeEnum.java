@@ -12,7 +12,7 @@ public enum BizCodeEnum {
      */
 
     MI_DUN_INVALIDATOR(401,"非法请求"),
-    MI_DUN_ERROR(403,"米盾认证失败"),
+    MI_DUN_ERROR(403,"盾认证失败"),
     MI_DUN_GET_USER_INFO_ERROR(406,"获取用户签名失败"),
     GATEWAY_ERROR(10001,"网关异常");
     private int code;
